@@ -52,7 +52,7 @@ Passwords are hashed with bcrypt. Password hashes are also not shown when gettin
 
 ### PUT
 Users can upvote posts by making a put request. Send a request at the url and append "/api/posts/upvote" as well as sending a request body.  
-Example upvote put request: ```http://localhost:3001/api/posts/upvote```
+Example upvote put request: ```https://safe-fjord-78314.herokuapp.com/api/posts/upvote```
 
 #### Example PUT request body
 ```
