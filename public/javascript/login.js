@@ -43,7 +43,7 @@ const loginFormHandler = async e => {
         });
 
         if (res.ok) {
-            document.location.replace('/');
+            document.location.replace('/dashboard');
         } else {
             alert(res.statusText);
         }
